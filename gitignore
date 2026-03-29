@@ -1,0 +1,81 @@
+# ════════════════════════════════════════════════════════════════════════════════
+# Nexus Downloader - .gitignore
+# ════════════════════════════════════════════════════════════════════════════════
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller artifacts
+*.manifest
+*.spec
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Project-specific
+*.log
+*.tmp
+cache/
+downloads/
+settings.json
+license_cache.json
+*.bak
+*.tmp~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+*.code-workspace
